@@ -6,13 +6,13 @@ import welcomeLogo from './img/welcome.png';
 
 function App() {
    return (
-      <div className="App bodyfont">
-         <div className="App-header">
+      <div className="bodyfont">
+         <div className="App-header nav-container">
             <Nav />
          </div>
       
          <div className="body-background">
-           <img src={welcomeLogo} className="Welcome Logo" alt="Welcome" />
+           <img src={welcomeLogo} className="Welcome-logo" alt="Welcome" />
            <header><About /></header>
          </div>   
       </div>

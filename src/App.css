@@ -1,5 +1,52 @@
+main {
+	margin: 0 auto;
+	max-width: 90%;
+   padding: 50px 30px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+   --spacing-one: calc( 1rem * 0.5 );
+   --spacing-two: calc( 1rem );
+}
+
 .App {
-   text-align: center;
+   text-align: left;
+}
+
+.App-header {
+   background-color: #282c34;
+   min-height: 8vh;
+   display: flex;
+   font-size: calc(10px + 2vmin);
+   color: rgb(154, 196, 221);
+   padding: 0;
+   margin: 0;
+   width: 100%;
+}
+
+.nav-container {
+   position: relative;
+}
+ 
+.nav-vertical-center {
+   position: absolute;
+   top: 50%;
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+   font-size: 1rem;
+}
+
+.div-left {
+   left: 0%;
+}
+
+.div-right {
+   right: 0%;
+}
+
+.bodyfont {
+   font-family: 'Montserrat', sans-serif;
 }
 
 .Welcome-logo {
@@ -9,16 +56,16 @@
    padding: 10px;
 }
 
-.bodyfont {
-   font-family: 'Montserrat', sans-serif;
-   
-}
-
 h1 {
    margin: 0 0 1rem 0;
    font-weight: 600;
    font-size: 2rem;
    color: #244e70;
+}
+
+h2 {
+   text-align: left;
+   margin: 2px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -27,25 +74,12 @@ h1 {
    }
 }
 
-.App-header {
-   background-color: #282c34;
-   min-height: 8vh;
-   display: flex;
-   align-items: left;
-   justify-content: left;
-   font-size: calc(10px + 2vmin);
-   color: rgb(154, 196, 221);
-   padding: 0;
-   margin: 0;
-}
-
 .body-background{
    background-image: url( "./img/background.jpg" );
    background-size: cover;
    background-repeat: no-repeat;
    height: 100vh;
 }
-
 
 .App-link {
    color: #61dafb;
@@ -58,4 +92,34 @@ h1 {
    to {
       transform: rotate(360deg);
    }
+}
+
+.flex-row {
+   display: inline-flex;
+}
+
+.px-1 {
+   padding-right: var( --spacing-one );
+   padding-left: var( --spacing-one );
+}
+ 
+.px-2 {
+   padding-right: var( --spacing-two );
+   padding-left: var( --spacing-two );
+} 
+
+.mx-1 {
+   margin-right: var( --spacing-one );
+   margin-left: var( --spacing-one );
+}
+
+.mx-2 {
+   margin-right: var( --spacing-two );
+   margin-left: var( --spacing-two );
+}
+
+.mx-1-nav {
+   margin-right: var( --spacing-one );
+   margin-left: var( --spacing-one );
+   padding: 1px;
 }

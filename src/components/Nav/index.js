@@ -3,17 +3,25 @@ import logo from '../../img/logo.png';
 
 
 const Nav = () => {
-   return (
-      <header>
-         <h2><img src={logo} alt="Logo" width="130" height="40"></img></h2>
+   const navCategories = [
+      { name: "Portfolio", description: "View my projects" },
+      { name: "Resume", description: "View my full resume" }
+   ];
 
-         <nav>
-            <ul className="flex-row">
-               <li className="mx-2"><a href="#about">About Me</a></li>
-               <li><span>Contact</span></li>
-            </ul>
-         </nav>
-      </header>
+   return (
+      <>
+         <div className="nav-vertical-center div-left">
+            <a href="/"> <img src={logo} alt="Logo" width="130" height="40"></img></a>
+         </div>
+
+         <div className="nav-vertical-center bodyfont div-right">
+            <span className="mx-1-nav">About Me</span>
+            <span className="mx-1-nav">Contact</span>
+            { navCategories.map(( category ) => (
+               <span className="mx-1-nav" key={ category.name }>{ category.name }</span>
+            ))}
+         </div>
+      </>
    );
 };
 
