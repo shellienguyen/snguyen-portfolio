@@ -56,6 +56,10 @@ main {
    color: rgb(184, 55, 83)
 }
 
+.navbar-font-size{
+   font-size: small;
+}
+
 .welcome-font-size {
    font-size: 2rem;
 }
@@ -64,8 +68,9 @@ main {
    font-size: larger;
 }
 
-.navbar-font-size{
-   font-size: small;
+.about-body-font-size{
+   font-size: medium;
+   color: var( --default-color );
 }
 
 .body-font {
@@ -99,17 +104,17 @@ h2 {
 }
 
 .body-background{
-   background-image: url( "./img/background4.jpg" );
+   background-image: url( "./img/background5.jpg" );
    background-size: cover;
    background-repeat: no-repeat;
-   height: 100vh;
+   min-height: 100vh;
 }
 
 .card-background{
    background-image: url( "./img/background.jpg" );
    background-size: cover;
    background-repeat: no-repeat;
-   height: 50vh;
+   min-height: 80vh;
 }
 
 .App-link {
@@ -127,6 +132,10 @@ h2 {
 
 .flex-row {
    display: inline-flex;
+}
+
+.block-row {
+   display: inline-block;
 }
 
 .px-1 {
@@ -153,6 +162,11 @@ h2 {
    margin-right: var( --spacing-one );
    margin-left: var( --spacing-one );
    padding: 1px;
+}
+
+.wrap-text {
+   float: left;
+   margin: 10px 25px 0 0;
 }
 
 .container, .content {
