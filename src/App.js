@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
-//import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 
 const App = () => {
@@ -26,6 +26,8 @@ const App = () => {
                   <Route path="/welcome" components={Welcome}><Welcome /></Route>
                </Switch>
             </div>
+
+            <Footer />
          </Router>
       </div>
    );

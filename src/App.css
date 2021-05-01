@@ -1,7 +1,7 @@
 :root {
    --spacing-one: calc( 1rem * 0.5 );
    --spacing-two: calc( 1rem );
-   --default-color: rgb(53, 45, 45);
+   --default-color: rgb(71, 71, 71);
 }
 
 main {
@@ -157,4 +157,24 @@ h2 {
 
 .container, .content {
    position: relative;
+}
+
+.footer {
+   background-color: var( --default-color );
+   text-align: center;
+   padding: 0px 0px 15px 0px;
+}
+
+#footer .icon {
+   background-color: var( --default-color );
+   margin-top: 20px;
+}
+
+#footer p {
+   background-color: var( --default-color );
+}
+
+#footer a {
+   text-decoration: none;
+   color: var(--cadet-blue);
 }
