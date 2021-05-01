@@ -24,6 +24,7 @@ const App = () => {
                   <Route path="/resume" components={Resume}><Resume /></Route>
                   <Route path="/contact" components={Contact}><Contact /></Route>
                   <Route path="/welcome" components={Welcome}><Welcome /></Route>
+                  <Route path="/" components={Welcome}><Welcome /></Route>
                </Switch>
             </div>
 
