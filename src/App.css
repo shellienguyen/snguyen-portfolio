@@ -50,9 +50,9 @@ main {
 }
 
 .Welcome-logo {
-   height: 15vmin;
+   height: 12vmin;
    pointer-events: none;
-   margin: 20px;
+   margin: 0px;
    padding: 10px;
 }
 
@@ -75,10 +75,17 @@ h2 {
 }
 
 .body-background{
-   background-image: url( "./img/background.jpg" );
+   background-image: url( "./img/background4.jpg" );
    background-size: cover;
    background-repeat: no-repeat;
    height: 100vh;
+}
+
+.card-background{
+   background-image: url( "./img/background.jpg" );
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 50vh;
 }
 
 .App-link {
@@ -122,4 +129,8 @@ h2 {
    margin-right: var( --spacing-one );
    margin-left: var( --spacing-one );
    padding: 1px;
+}
+
+.container, .content {
+   position: relative;
 }

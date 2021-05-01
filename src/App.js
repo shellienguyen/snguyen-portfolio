@@ -1,20 +1,31 @@
+import React from 'react';
 import './App.css';
-import Nav from './components/Nav';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Welcome from './components/Welcome';
 import About from './components/About';
-import welcomeLogo from './img/welcome.png';
+import Navbar from './components/Navbar';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
 
 
-function App() {
+const App = () => {
    return (
-      <div className="bodyfont">
-         <div className="App-header nav-container">
-            <Nav />
-         </div>
-      
-         <div className="body-background">
-           <img src={welcomeLogo} className="Welcome-logo" alt="Welcome" />
-           <header><About /></header>
-         </div>   
+      <div className="App">
+         <Router>
+            <Navbar />
+            <div>
+               {/* A <Switch> looks through its children <Route>s and
+               renders the first one that matches the current URL. */}
+               <Switch>
+                  <Route path="/about" components={About}><About /></Route>
+                  <Route path="/portfolio" components={Portfolio}><Portfolio /></Route>
+                  <Route path="/resume" components={Resume}><Resume /></Route>
+                  <Route path="/contact" components={Contact}><Contact /></Route>
+                  <Route path="/welcome" components={Welcome}><Welcome /></Route>
+               </Switch>
+            </div>
+         </Router>
       </div>
    );
 };
