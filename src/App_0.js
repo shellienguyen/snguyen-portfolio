@@ -6,7 +6,7 @@ import welcomeLogo from './img/welcome.png';
 
 function App() {
    return (
-      <div className="bodyfont">
+      <div className="body-font">
          <div className="App-header nav-container">
             <Nav />
          </div>

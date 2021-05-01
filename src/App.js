@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+//import Footer from './components/Footer';
 
 
 const App = () => {

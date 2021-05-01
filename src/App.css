@@ -1,13 +1,15 @@
+:root {
+   --spacing-one: calc( 1rem * 0.5 );
+   --spacing-two: calc( 1rem );
+   --default-color: rgb(53, 45, 45);
+}
+
 main {
 	margin: 0 auto;
 	max-width: 90%;
    padding: 50px 30px;
-   font-family: 'Montserrat', sans-serif;
-}
-
-:root {
-   --spacing-one: calc( 1rem * 0.5 );
-   --spacing-two: calc( 1rem );
+   font-family: 'Montserrat', sans-serif; 
+   color: var( --default-color );   
 }
 
 .App {
@@ -45,8 +47,30 @@ main {
    right: 0%;
 }
 
-.bodyfont {
+.title-font{
+   font-family: "Raleway";
+   color: var( --default-color );
+}
+
+.hightlight {
+   color: rgb(184, 55, 83)
+}
+
+.welcome-font-size {
+   font-size: 2rem;
+}
+
+.welcome-body-font-size{
+   font-size: larger;
+}
+
+.navbar-font-size{
+   font-size: small;
+}
+
+.body-font {
    font-family: 'Montserrat', sans-serif;
+   color: var( --default-color );
 }
 
 .Welcome-logo {
