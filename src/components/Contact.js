@@ -7,6 +7,7 @@ import Form from 'react-bootstrap/Form';
 import { validateEmail } from '../utils/helpers';
 import { capitalizeFirstLetter } from '../utils/helpers';
 
+const MainBodyStyling = { boxShadow: '8px 8px 20px rgb(41, 65, 78, 0.8)', margin: '0px 80px 0px 80px' };
 
 const Contact = () => {
    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -65,8 +66,8 @@ const Contact = () => {
       <Fragment>
          <div className="body-background">
             <div>
-               <Card className="card-background" style={{ boxShadow: '8px 8px 20px rgb(41, 65, 78, 0.8)', margin: '0px 80px 0px 80px' }} bg='light'>
-                  <Card.Header className="contact-font-size">Contact</Card.Header>
+               <Card className="card-background" style={MainBodyStyling} bg='light'>
+                  <Card.Header className="contact-font-size">Connect with Me</Card.Header>
                   <Card.Body>
                      {errorMessage && (
                         <div>
