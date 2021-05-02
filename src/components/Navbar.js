@@ -17,7 +17,7 @@ const App = () => {
             </Link>
             <ReactBS.Navbar.Toggle aria-controls="basic-navbar-nav" />
             <ReactBS.Navbar.Collapse id="basic-navbar-nav">
-               <ReactBS.Nav className="ml-auto navbar-font-size">
+               <ReactBS.Nav className="ml-auto small-font-size">
                   <Link to="/About">
                      <ReactBS.Nav.Link href="#about">About Me</ReactBS.Nav.Link>
                   </Link>

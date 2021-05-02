@@ -27,7 +27,21 @@ const Portfolio = () => {
                         <Card style={CardStylingProject1} className={CardBorder}>
                            <Card.Img variant='top' src={projectHappyTails} />
                            <Card.Body>
-                              <Card.Title>Project 1</Card.Title>
+                              <Card.Title>Happy Tails</Card.Title>
+                           
+                              <React.Fragment><span className="small-font-size">{PortfolioTexts[0]}</span></React.Fragment>
+                           
+                              <ListGroup>
+                                 <ListGroup.Item variant='dark'>Built with: </ListGroup.Item>
+                                 <ListGroup.Item variant='light'>
+                                    HTML, CSS, Materialize, JavaScript, Node.js, MySQL, Sequelize, Nodemailer, Express Session
+                                 </ListGroup.Item>
+                              </ListGroup>
+                           </Card.Body>
+
+                           <Card.Body>
+                              <a href="https://github.com/shellienguyen/happy-tails" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" width="35px" height="35px" alt="GitHub Repo" /></a>
+                              <a href="https://happy-happy-tails.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/domain.png" width="35px" height="35px" alt="Live Application" /></a>
                            </Card.Body>
                         </Card>
                         {/* END OF Happy Tails PROJECT */}
