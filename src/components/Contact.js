@@ -3,6 +3,7 @@ import React, { Fragment, useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import { Button } from 'react-bootstrap';
 import Col from 'react-bootstrap/Col';
+import Form from 'react-bootstrap/Form';
 import { validateEmail } from '../utils/helpers';
 import { capitalizeFirstLetter } from '../utils/helpers';
 
@@ -34,8 +35,8 @@ const Contact = () => {
       }
       else {
          if (!e.target.value.length) {
-            let fieldName = capitalizeFirstLetter( e.target.name );
-            setErrorMessage(`*** ${fieldName} is required! ***` );
+            let fieldName = capitalizeFirstLetter(e.target.name);
+            setErrorMessage(`*** ${fieldName} is required! ***`);
          }
          else {
             setErrorMessage('');
@@ -52,7 +53,7 @@ const Contact = () => {
          setFormState({ ...formState, [e.target.name]: e.target.value });
       };
 
-      console.log ('Error Message:', errorMessage);
+      console.log('Error Message:', errorMessage);
    };
 
    const handleSubmit = (e) => {
@@ -64,7 +65,7 @@ const Contact = () => {
       <Fragment>
          <div className="body-background">
             <div>
-               <Card className="card-background" style={{ boxShadow: '8px 8px 20px rgb(41, 65, 78, 0.8)', margin: '0px 45px 30px 45px' }} bg='light'>
+               <Card className="card-background" style={{ boxShadow: '8px 8px 20px rgb(41, 65, 78, 0.8)', margin: '0px 80px 0px 80px' }} bg='light'>
                   <Card.Header className="contact-font-size">Contact</Card.Header>
                   <Card.Body>
                      {errorMessage && (
@@ -75,29 +76,34 @@ const Contact = () => {
 
                      <Card.Title>
                         <form id="contact-form" onSubmit={handleSubmit}>
-                           <div>
-                              <label className="contact-body-font-size" htmlFor="name">Name:</label><br></br>
-                              <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-                           </div>
+                           <Form.Group className="contact-body-font-size">
+                              <Col xs={5}>
+                                 <div>
+                                    <Form.Label>Name:</Form.Label>
+                                    <Form.Control type="text" name="name" defaultValue={name} onBlur={handleChange}></Form.Control>
+                                 </div>
+                                 <br></br>
+                                 <div>
+                                    <Form.Label>Email address:</Form.Label>
+                                    <Form.Control type="email" name="email" defaultValue={email} onBlur={handleChange} ></Form.Control>
+                                 </div>
+                                 <br></br>
+                                 <div>
+                                    <Form.Label>Message:</Form.Label>
+                                    <Form.Control as="textarea" name="message" defaultValue={message} onBlur={handleChange} rows={5} ></Form.Control>
+                                 </div>
+                              </Col>
+                           </Form.Group>
+                        </form>
 
-                           <div>
-                              <label className="contact-body-font-size" htmlFor="email">Email address:</label><br></br>
-                              <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-                           </div>
-
-                           <div>
-                              <label className="contact-body-font-size" htmlFor="message">Message:</label><br></br>
-                              <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
-                           </div>
-
-                           <Col xs={6}>
+                        <Form.Group>
+                           <Col sm={{ span: 6}}>
                               <Button variant="primary" size="sm"
-                                    className="text-light" data-testid="button" >
+                                 className="text-light" data-testid="button" >
                                  Submit
                               </Button>
                            </Col>
-                        </form>
-
+                        </Form.Group>
                      </Card.Title>
                   </Card.Body>
                </Card>

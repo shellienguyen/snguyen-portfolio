@@ -9,7 +9,7 @@ const About = () => {
       <Fragment>
          <div className="body-background">
             <div className="text-center">
-               <Card className="card-background" style={{ boxShadow: '8px 8px 20px rgb(41, 65, 78, 0.8)', margin: '0px 45px 30px 45px' }} bg='light'>
+               <Card className="card-background" style={{ boxShadow: '8px 8px 20px rgb(41, 65, 78, 0.8)', margin: '0px 80px 0px 80px' }} bg='light'>
                   <Card.Header><img src={about} alt="Who am I?" width="160" height="94"></img></Card.Header>
                   <Card.Body>
                      <Card.Title>
