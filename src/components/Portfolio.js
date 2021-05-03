@@ -1,15 +1,17 @@
 import React, { Fragment } from 'react';
-import { Card, CardDeck, Button, Container, Row, Col, ListGroup, ListGroupItem, } from 'react-bootstrap';
+import { Card, CardDeck, Row, ListGroup } from 'react-bootstrap';
 import PortfolioTexts from './PortfolioTexts';
 import projectHappyTails from '../img/project-happy-tails.jpg';
+import projectSurfConditions from '../img/project-surf-conditions.jpg';
+import projectTechBlog from '../img/project-mvc-tech-blog.jpg';
 
 const MainBodyStyling = { boxShadow: '8px 8px 20px rgb(41, 65, 78, 0.8)', margin: '0px 80px 0px 80px' };
-const CardStylingProject1 = { margin: '30px 20px 20px 50px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
-const CardStylingProject2 = { margin: '30px 50px 20px 20px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
-const CardStylingProject3 = { margin: '20px 20px 20px 50px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
-const CardStylingProject4 = { margin: '20px 50px 20px 20px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
-const CardStylingProject5 = { margin: '20px 20px 30px 50px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
-const CardStylingProject6 = { margin: '20px 50px 30px 20px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
+const CardStylingProject1 = { margin: '30px 25px 25px 60px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
+const CardStylingProject2 = { margin: '30px 60px 25px 20px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
+const CardStylingProject3 = { margin: '25px 25px 25px 60px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
+const CardStylingProject4 = { margin: '25px 60px 25px 25px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
+const CardStylingProject5 = { margin: '25px 25px 30px 60px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
+const CardStylingProject6 = { margin: '25px 60px 30px 25px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
 const CardBorder = 'border border-info bg-dark text-light';
 
 
@@ -29,12 +31,12 @@ const Portfolio = () => {
                            <Card.Body>
                               <Card.Title>Happy Tails</Card.Title>
                            
-                              <React.Fragment><span className="small-font-size">{PortfolioTexts[0]}</span></React.Fragment>
+                              <React.Fragment><span className="xsmall-font-size">{PortfolioTexts[0]}</span></React.Fragment>
                            
                               <ListGroup>
-                                 <ListGroup.Item variant='dark'>Built with: </ListGroup.Item>
-                                 <ListGroup.Item variant='light'>
-                                    HTML, CSS, Materialize, JavaScript, Node.js, MySQL, Sequelize, Nodemailer, Express Session
+                                 <ListGroup.Item variant='info' className="small-font-size">Built with: </ListGroup.Item>
+                                 <ListGroup.Item variant='secondary' className="xsmall-font-size">
+                                    HTML, CSS, Materialize, JavaScript, Node.js, Express.js, MySQL, Sequelize, Bcrypt.js, Nodemailer, Express Session
                                  </ListGroup.Item>
                               </ListGroup>
                            </Card.Body>
@@ -46,14 +48,28 @@ const Portfolio = () => {
                         </Card>
                         {/* END OF Happy Tails PROJECT */}
 
-                        {/* START OF 2nd PROJECT */}
+                        {/* START OF OC/LA Surf Conditions PROJECT */}
                         <Card style={CardStylingProject2} className={CardBorder}>
-                           <Card.Img variant='top' src={projectHappyTails} />
+                           <Card.Img variant='top' src={projectSurfConditions} />
                            <Card.Body>
-                              <Card.Title>Project 2</Card.Title>
+                              <Card.Title>LA/OC Surf Conditions</Card.Title>
+                           
+                              <React.Fragment><span className="xsmall-font-size">{PortfolioTexts[1]}</span></React.Fragment>
+                           
+                              <ListGroup>
+                                 <ListGroup.Item variant='info' className="small-font-size">Built with: </ListGroup.Item>
+                                 <ListGroup.Item variant='secondary' className="xsmall-font-size">
+                                    HTML, CSS, Materialize, JavaScript, localStorage, weather API, image API, Modal
+                                 </ListGroup.Item>
+                              </ListGroup>
+                           </Card.Body>
+
+                           <Card.Body>
+                              <a href="https://github.com/shellienguyen/surf-forecast" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" width="35px" height="35px" alt="GitHub Repo" /></a>
+                              <a href="https://shellienguyen.github.io/surf-forecast/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/domain.png" width="35px" height="35px" alt="Live Application" /></a>
                            </Card.Body>
                         </Card>
-                        {/* END OF 2nd PROJECT */}
+                        {/* END OF OC/LA Surf Conditions PROJECT */}
                      </CardDeck>
                   </Row>
                   {/* END OF ROW 1 */}
@@ -61,14 +77,28 @@ const Portfolio = () => {
                   {/* START OF ROW 2 */}
                   <Row>
                      <CardDeck>
-                        {/* START OF 3rd PROJECT */}
+                        {/* START OF MVC Tech Blog PROJECT */}
                         <Card style={CardStylingProject3} className={CardBorder}>
-                           <Card.Img variant='top' src={projectHappyTails} />
+                           <Card.Img variant='top' src={projectTechBlog} />
                            <Card.Body>
-                              <Card.Title>Project 3</Card.Title>
+                              <Card.Title>The MVC Tech BurgerLoggerImg</Card.Title>
+                           
+                              <React.Fragment><span className="xsmall-font-size">{PortfolioTexts[2]}</span></React.Fragment>
+                           
+                              <ListGroup>
+                                 <ListGroup.Item variant='info' className="small-font-size">Built with: </ListGroup.Item>
+                                 <ListGroup.Item variant='secondary' className="xsmall-font-size">
+                                    HTML, CSS, Materialize, JavaScript, localStorage, weather API, image API, Modal
+                                 </ListGroup.Item>
+                              </ListGroup>
+                           </Card.Body>
+
+                           <Card.Body>
+                              <a href="https://github.com/shellienguyen/surf-forecast" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" width="35px" height="35px" alt="GitHub Repo" /></a>
+                              <a href="https://shellienguyen.github.io/surf-forecast/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/domain.png" width="35px" height="35px" alt="Live Application" /></a>
                            </Card.Body>
                         </Card>
-                        {/* END OF 3rd PROJECT */}
+                        {/* END OF MVC Tech Blog PROJECT */}
 
                         {/* START OF 4th PROJECT */}
                         <Card style={CardStylingProject4} className={CardBorder}>

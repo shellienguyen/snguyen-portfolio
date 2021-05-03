@@ -12,7 +12,11 @@ const PortfolioTexts = [
    </Card.Text>,
 
    <Card.Text>
-      Project 2
+      This is an application made for surfers in the OC/LA areas. It finds the current surf
+      conditions for 7 tracked beaches along the OC/LA coastline, then returns a simplified
+      layout of relevant surf and weather conditions for a user-selected beach. To add to
+      a fun user experience, a relevant and random image that represents the current surf
+      contidion is also displayed.<br></br><br></br>
    </Card.Text>,
 
    <Card.Text>

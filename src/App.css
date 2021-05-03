@@ -60,6 +60,10 @@ main {
    font-size: small;
 }
 
+.xsmall-font-size{
+   font-size: x-small;
+}
+
 .welcome-font-size {
    font-size: 2rem;
    color: var( --default-color );
