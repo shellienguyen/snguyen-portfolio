@@ -12,13 +12,15 @@ const Welcome = () => {
                <Card className="card-background title-font" style={ MainBodyStyling } bg='light'>
                   <Card.Header className="welcome-font-size">while ( !seeBestView ) &#123; climbUntil() &#125;;</Card.Header>
                   <Card.Body>
-                     <Card.Title className="welcome-body-font-size">
-                        <br></br>
-                        Hello and Welcome!
-                        <br></br><br></br>
-                        I am <span className="highlight"><i>Shellie Nguyen</i></span>.
-                        <br></br><br></br>
-                        I am a full-stack web developer.
+                     <Card.Title>
+                        <p className="welcome-body-font-size">
+                           <br></br>
+                           Hello and Welcome!
+                           <br></br><br></br>
+                           I am <span className="highlight"><i>Shellie Nguyen</i></span>.
+                           <br></br><br></br>
+                           I am a full-stack web developer.
+                        </p>
                      </Card.Title>
                   </Card.Body>
                </Card>

@@ -34,11 +34,11 @@ const Portfolio = () => {
                            <Card.Body>
                               <Card.Title>Happy Tails</Card.Title>
                            
-                              <React.Fragment><span className="xsmall-font-size">{PortfolioTexts[0]}</span></React.Fragment>
+                              <React.Fragment><span className="small-font-size">{PortfolioTexts[0]}</span></React.Fragment>
                            
                               <ListGroup>
                                  <ListGroup.Item variant='info' className="small-font-size">Built with: </ListGroup.Item>
-                                 <ListGroup.Item variant='secondary' className="xsmall-font-size">
+                                 <ListGroup.Item variant='secondary' className="small-font-size">
                                     HTML, CSS, Materialize, JavaScript, Node.js, Express.js, MySQL, Sequelize, Bcrypt.js, Nodemailer, Express Session
                                  </ListGroup.Item>
                               </ListGroup>
@@ -57,11 +57,11 @@ const Portfolio = () => {
                            <Card.Body>
                               <Card.Title>LA/OC Surf Conditions</Card.Title>
                            
-                              <React.Fragment><span className="xsmall-font-size">{PortfolioTexts[1]}</span></React.Fragment>
+                              <React.Fragment><span className="small-font-size">{PortfolioTexts[1]}</span></React.Fragment>
                            
                               <ListGroup>
                                  <ListGroup.Item variant='info' className="small-font-size">Built with: </ListGroup.Item>
-                                 <ListGroup.Item variant='secondary' className="xsmall-font-size">
+                                 <ListGroup.Item variant='secondary' className="small-font-size">
                                     HTML, CSS, JavaScript, localStorage, weather API, image API, Modal
                                  </ListGroup.Item>
                               </ListGroup>
@@ -86,11 +86,11 @@ const Portfolio = () => {
                            <Card.Body>
                               <Card.Title>The MVC Tech Blog</Card.Title>
                            
-                              <React.Fragment><span className="xsmall-font-size">{PortfolioTexts[2]}</span></React.Fragment>
+                              <React.Fragment><span className="small-font-size">{PortfolioTexts[2]}</span></React.Fragment>
                            
                               <ListGroup>
                                  <ListGroup.Item variant='info' className="small-font-size">Built with: </ListGroup.Item>
-                                 <ListGroup.Item variant='secondary' className="xsmall-font-size">
+                                 <ListGroup.Item variant='secondary' className="small-font-size">
                                  HTML, CSS, JavaScript, Express.js, Node.js, MySQl Sequelize. Express Handlebars, Connect Session Sequelize, dotenv, bcrypt
                                  </ListGroup.Item>
                               </ListGroup>
@@ -109,11 +109,11 @@ const Portfolio = () => {
                            <Card.Body>
                               <Card.Title>Password Generator</Card.Title>
                            
-                              <React.Fragment><span className="xsmall-font-size">{PortfolioTexts[2]}</span></React.Fragment>
+                              <React.Fragment><span className="small-font-size">{PortfolioTexts[2]}</span></React.Fragment>
                            
                               <ListGroup>
                                  <ListGroup.Item variant='info' className="small-font-size">Built with: </ListGroup.Item>
-                                 <ListGroup.Item variant='secondary' className="xsmall-font-size">
+                                 <ListGroup.Item variant='secondary' className="small-font-size">
                                  HTML, CSS, JavaScript, JQuery, Bootstrap
                                  </ListGroup.Item>
                               </ListGroup>
@@ -138,11 +138,11 @@ const Portfolio = () => {
                            <Card.Body>
                               <Card.Title>Team Profile Generator</Card.Title>
                            
-                              <React.Fragment><span className="xsmall-font-size">{PortfolioTexts[4]}</span></React.Fragment>
+                              <React.Fragment><span className="small-font-size">{PortfolioTexts[4]}</span></React.Fragment>
                            
                               <ListGroup>
                                  <ListGroup.Item variant='info' className="small-font-size">Built with: </ListGroup.Item>
-                                 <ListGroup.Item variant='secondary' className="xsmall-font-size">
+                                 <ListGroup.Item variant='secondary' className="small-font-size">
                                  HTML, CSS, JavaScript, Jest, Inquirer
                                  </ListGroup.Item>
                               </ListGroup>
@@ -160,11 +160,11 @@ const Portfolio = () => {
                            <Card.Body>
                               <Card.Title>Weather Dashboard</Card.Title>
                            
-                              <React.Fragment><span className="xsmall-font-size">{PortfolioTexts[5]}</span></React.Fragment>
+                              <React.Fragment><span className="small-font-size">{PortfolioTexts[5]}</span></React.Fragment>
                            
                               <ListGroup>
                                  <ListGroup.Item variant='info' className="small-font-size">Built with: </ListGroup.Item>
-                                 <ListGroup.Item variant='secondary' className="xsmall-font-size">
+                                 <ListGroup.Item variant='secondary' className="small-font-size">
                                     HTML, CSS, JavaScript, weater API
                                  </ListGroup.Item>
                               </ListGroup>

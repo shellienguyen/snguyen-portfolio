@@ -13,14 +13,14 @@ const App = () => {
                <ReactBS.Navbar href="#welcome">
                   <Link to="/Welcome">
                      <ReactBS.Nav.Link href="#welcome">
-                        <img src={logo} width="130" height="40" className="d-inline-block align-top" alt="Shellie Nguyen Logo" />
+                        <img src={logo} width="200" height="65" className="d-inline-block align-top" alt="Shellie Nguyen Logo" />
                      </ReactBS.Nav.Link>
                   </Link>
                </ReactBS.Navbar>
             </Link>
             <ReactBS.Navbar.Toggle aria-controls="basic-navbar-nav" />
             <ReactBS.Navbar.Collapse id="basic-navbar-nav">
-               <ReactBS.Nav className="ml-auto small-font-size">
+               <ReactBS.Nav className="ml-auto medium-font-size">
                   <Link to="/About">
                      <ReactBS.Nav.Link href="#about">About Me</ReactBS.Nav.Link>
                   </Link>

@@ -12,7 +12,7 @@ const About = () => {
          <div className="body-background">
             <div className="text-center">
                <Card className="card-background" style={ MainBodyStyling } bg='light'>
-                  <Card.Header><img src={about} alt="Who am I?" width="160" height="94"></img></Card.Header>
+                  <Card.Header><img src={about} alt="Who am I?" width="200" height="120"></img></Card.Header>
                   <Card.Body>
                      <Card.Title>
                         <img src={headshot} className="wrap-text" alt="Shellie's Headshot" width="150" height="150"></img>

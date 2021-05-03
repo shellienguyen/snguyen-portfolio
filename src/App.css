@@ -56,16 +56,16 @@ main {
    color: rgb(184, 55, 83)
 }
 
+.medium-font-size{
+   font-size: medium;
+}
+
 .small-font-size{
    font-size: small;
 }
 
-.xsmall-font-size{
-   font-size: x-small;
-}
-
 .welcome-font-size {
-   font-size: 2rem;
+   font-size: 2.5rem;
    color: var( --default-color );
 }
 
@@ -75,12 +75,12 @@ main {
 }
 
 .contact-body-font-size {
-   font-size: small;
+   font-size: medium;
    color: var( --default-color );
 }
 
 .welcome-body-font-size{
-   font-size: larger;
+   font-size: x-large;
 }
 
 .about-body-font-size{
@@ -193,7 +193,7 @@ h2 {
 }
 
 .error-font {
-   font-size: small;
+   font-size: medium;
    font-weight: bold;
    color: rgb(204, 52, 52);
 }
