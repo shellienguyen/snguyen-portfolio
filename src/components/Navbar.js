@@ -10,10 +10,13 @@ const App = () => {
       <div>
          <ReactBS.Navbar className="container-fluid" bg="dark" variant="dark" expand="sm">
             <Link to="/Welcome">
-               <ReactBS.Navbar.Brand href="#welcome">
-                  <img src={logo} width="130" height="40"
-                     className="d-inline-block align-top" alt="Shellie Nguyen Logo" />
-               </ReactBS.Navbar.Brand>
+               <ReactBS.Navbar href="#welcome">
+                  <Link to="/Welcome">
+                     <ReactBS.Nav.Link href="#welcome">
+                        <img src={logo} width="130" height="40" className="d-inline-block align-top" alt="Shellie Nguyen Logo" />
+                     </ReactBS.Nav.Link>
+                  </Link>
+               </ReactBS.Navbar>
             </Link>
             <ReactBS.Navbar.Toggle aria-controls="basic-navbar-nav" />
             <ReactBS.Navbar.Collapse id="basic-navbar-nav">

@@ -15,13 +15,13 @@ const Resume = () => {
                <Card.Header className="welcome-font-size">Resume</Card.Header>
                <Card.Body>
                   <p className="small-font-size">
-                        I give my mind to working at creating a healthy organization. With a
-                        diverse backgrounds in technical, management, leadership, and retail,
-                        I have seen the many ways organizations can improve their own systems
-                        for the betterment of themselves and their employees. I believe in
-                        growth, development, and lifelong learning and this applies to
-                        organizations, individuals, and teams. Those who have the vision and
-                        the drive to better themselves will always grow.
+                     I give my mind to working at creating a healthy organization. With a
+                     diverse backgrounds in technical, management, leadership, and retail,
+                     I have seen the many ways organizations can improve their own systems
+                     for the betterment of themselves and their employees. I believe in
+                     growth, development, and lifelong learning and this applies to
+                     organizations, individuals, and teams. Those who have the vision and
+                     the drive to better themselves will always grow.
                   </p>
 
                   <Card.Title>Proficiencies</Card.Title>
@@ -32,7 +32,7 @@ const Resume = () => {
 
                   <br></br>
 
-                  <a href={resumeLink} target="_blank" rel="noopener noreferrer" className="small-font-size"><img src={resumeIcon} width="50" height="50"></img><br></br>Download Resume</a>
+                  <a href={resumeLink} alt="Download resume" target="_blank" rel="noopener noreferrer" className="small-font-size"><img src={resumeIcon} width="50" height="50"></img><br></br>Download Resume</a>
                </Card.Body>
             </Card>
          </div>
