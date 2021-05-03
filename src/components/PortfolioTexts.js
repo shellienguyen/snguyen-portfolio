@@ -20,11 +20,17 @@ const PortfolioTexts = [
    </Card.Text>,
 
    <Card.Text>
-      Project 3
+      The MVC Tech BLog is a CMS-style blog site similar to a Wordpress site, where
+      developers can publish their blog posts as well as comment on other developers’ posts.
+      They can also modify and delete blog posts. This application follows the MVC paradigm
+      in its architectural structure.<br></br><br></br>
    </Card.Text>,
    
    <Card.Text>
-      Project 4
+      The application generates a random password based on user criteria. Upon clicking
+      on the "Generate Password" button the user is greeted with a series of prompts to
+      indicate the password length, whether to include lower case characters, uppercase
+      characters, special characters, and/or numbers in the password.<br></br><br></br>
    </Card.Text>,
    
    <Card.Text>

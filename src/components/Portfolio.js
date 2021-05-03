@@ -4,6 +4,7 @@ import PortfolioTexts from './PortfolioTexts';
 import projectHappyTails from '../img/project-happy-tails.jpg';
 import projectSurfConditions from '../img/project-surf-conditions.jpg';
 import projectTechBlog from '../img/project-mvc-tech-blog.jpg';
+import projectPwdGen from '../img/project-pwd-gen.jpg';
 
 const MainBodyStyling = { boxShadow: '8px 8px 20px rgb(41, 65, 78, 0.8)', margin: '0px 80px 0px 80px' };
 const CardStylingProject1 = { margin: '30px 25px 25px 60px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
@@ -59,7 +60,7 @@ const Portfolio = () => {
                               <ListGroup>
                                  <ListGroup.Item variant='info' className="small-font-size">Built with: </ListGroup.Item>
                                  <ListGroup.Item variant='secondary' className="xsmall-font-size">
-                                    HTML, CSS, Materialize, JavaScript, localStorage, weather API, image API, Modal
+                                    HTML, CSS, JavaScript, localStorage, weather API, image API, Modal
                                  </ListGroup.Item>
                               </ListGroup>
                            </Card.Body>
@@ -81,33 +82,47 @@ const Portfolio = () => {
                         <Card style={CardStylingProject3} className={CardBorder}>
                            <Card.Img variant='top' src={projectTechBlog} />
                            <Card.Body>
-                              <Card.Title>The MVC Tech BurgerLoggerImg</Card.Title>
+                              <Card.Title>The MVC Tech Blog</Card.Title>
                            
                               <React.Fragment><span className="xsmall-font-size">{PortfolioTexts[2]}</span></React.Fragment>
                            
                               <ListGroup>
                                  <ListGroup.Item variant='info' className="small-font-size">Built with: </ListGroup.Item>
                                  <ListGroup.Item variant='secondary' className="xsmall-font-size">
-                                    HTML, CSS, Materialize, JavaScript, localStorage, weather API, image API, Modal
+                                 HTML, CSS, JavaScript, Express.js, Node.js, MySQl Sequelize. Express Handlebars, Connect Session Sequelize, dotenv, bcrypt
                                  </ListGroup.Item>
                               </ListGroup>
                            </Card.Body>
 
                            <Card.Body>
-                              <a href="https://github.com/shellienguyen/surf-forecast" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" width="35px" height="35px" alt="GitHub Repo" /></a>
-                              <a href="https://shellienguyen.github.io/surf-forecast/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/domain.png" width="35px" height="35px" alt="Live Application" /></a>
+                              <a href="https://github.com/shellienguyen/mvc-tech-blog" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" width="35px" height="35px" alt="GitHub Repo" /></a>
+                              <a href="https://sn-mvc-tech-blog.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/domain.png" width="35px" height="35px" alt="Live Application" /></a>
                            </Card.Body>
                         </Card>
                         {/* END OF MVC Tech Blog PROJECT */}
 
-                        {/* START OF 4th PROJECT */}
+                        {/* START OF Password Generator PROJECT */}
                         <Card style={CardStylingProject4} className={CardBorder}>
-                           <Card.Img variant='top' src={projectHappyTails} />
+                           <Card.Img variant='top' src={projectPwdGen} />
                            <Card.Body>
-                              <Card.Title>Project 4</Card.Title>
+                              <Card.Title>Password Generator</Card.Title>
+                           
+                              <React.Fragment><span className="xsmall-font-size">{PortfolioTexts[2]}</span></React.Fragment>
+                           
+                              <ListGroup>
+                                 <ListGroup.Item variant='info' className="small-font-size">Built with: </ListGroup.Item>
+                                 <ListGroup.Item variant='secondary' className="xsmall-font-size">
+                                 HTML, CSS, JQuery, Bootstrap
+                                 </ListGroup.Item>
+                              </ListGroup>
+                           </Card.Body>
+
+                           <Card.Body>
+                              <a href="https://github.com/shellienguyen/pwd-gen" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" width="35px" height="35px" alt="GitHub Repo" /></a>
+                              <a href="https://shellienguyen.github.io/pwd-gen/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/domain.png" width="35px" height="35px" alt="Live Application" /></a>
                            </Card.Body>
                         </Card>
-                        {/* END OF 4th PROJECT */}
+                        {/* END OF Password Generator PROJECT */}
                      </CardDeck>
                   </Row>
                   {/* END OF ROW 2 */}
@@ -115,11 +130,24 @@ const Portfolio = () => {
                   {/* START OF ROW 3 */}
                   <Row>
                      <CardDeck>
-                        {/* START OF 5th PROJECT */}
+                        {/* START OF Teacm Profile Generator PROJECT */}
                         <Card style={CardStylingProject5} className={CardBorder}>
                            <Card.Img variant='top' src={projectHappyTails} />
                            <Card.Body>
-                              <Card.Title>Project 5</Card.Title>
+                              <Card.Title>Team Profile Generator</Card.Title>
+                           
+                              <React.Fragment><span className="xsmall-font-size">{PortfolioTexts[4]}</span></React.Fragment>
+                           
+                              <ListGroup>
+                                 <ListGroup.Item variant='info' className="small-font-size">Built with: </ListGroup.Item>
+                                 <ListGroup.Item variant='secondary' className="xsmall-font-size">
+                                 HTML, CSS, JQuery, Bootstrap
+                                 </ListGroup.Item>
+                              </ListGroup>
+                           </Card.Body>
+
+                           <Card.Body>
+                              <a href="https://github.com/shellienguyen/team-profile-generator" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" width="35px" height="35px" alt="GitHub Repo" /></a>
                            </Card.Body>
                         </Card>
                         {/* END OF 5th PROJECT */}
