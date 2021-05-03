@@ -9,4 +9,4 @@ the site owner.
 
 ## How This Application Works:
 
-<br><br>![Mockup](https://github.com/shellienguyen/snguyen-portfolio/blob/main/src/img/app-demo.gif)
+<br><br>![Mockup](https://github.com/shellienguyen/snguyen-portfolio/blob/main/src/img/app-dem.gif)
