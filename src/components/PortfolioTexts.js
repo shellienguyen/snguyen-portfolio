@@ -44,7 +44,7 @@ const PortfolioTexts = [
       The Team Profile Generator is to provide travelers with a weather dashboard
       that displays the current weather to a requested city. Upon page load, the
       page will display the weather information for the last searched city,
-      if that information is available.
+      if that information is available.<br></br><br></br>
    </Card.Text>
 ];
 
