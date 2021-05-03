@@ -23,7 +23,7 @@ const Portfolio = () => {
       <Fragment>
          <div className="body-background text-center">
             <Card className="card-background title-font" style={MainBodyStyling} bg='light'>
-               <Card.Header className="contact-font-size">let <span class="highlight">myProjects</span> = [];</Card.Header>
+               <Card.Header className="welcome-font-size">let <span class="highlight">myProjects</span> = [];</Card.Header>
                <Card.Body>
                   {/* START OF ROW 1 */}
                   <Row>

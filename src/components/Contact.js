@@ -67,7 +67,7 @@ const Contact = () => {
          <div className="body-background">
             <div>
                <Card className="card-background" style={MainBodyStyling} bg='light'>
-                  <Card.Header className="contact-font-size">Connect with Me</Card.Header>
+                  <Card.Header className="welcome-font-size">Connect with Me</Card.Header>
                   <Card.Body>
                      {errorMessage && (
                         <div>
