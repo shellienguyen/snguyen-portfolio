@@ -5,6 +5,8 @@ import projectHappyTails from '../img/project-happy-tails.jpg';
 import projectSurfConditions from '../img/project-surf-conditions.jpg';
 import projectTechBlog from '../img/project-mvc-tech-blog.jpg';
 import projectPwdGen from '../img/project-pwd-gen.jpg';
+import projectTeamGen from '../img/project-team-profile-gen.jpg';
+import projectWeatherDashboard from '../img/project-weather-dashboard.jpg';
 
 const MainBodyStyling = { boxShadow: '8px 8px 20px rgb(41, 65, 78, 0.8)', margin: '0px 80px 0px 80px' };
 const CardStylingProject1 = { margin: '30px 25px 25px 60px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
@@ -112,7 +114,7 @@ const Portfolio = () => {
                               <ListGroup>
                                  <ListGroup.Item variant='info' className="small-font-size">Built with: </ListGroup.Item>
                                  <ListGroup.Item variant='secondary' className="xsmall-font-size">
-                                 HTML, CSS, JQuery, Bootstrap
+                                 HTML, CSS, JavaScript, JQuery, Bootstrap
                                  </ListGroup.Item>
                               </ListGroup>
                            </Card.Body>
@@ -130,9 +132,9 @@ const Portfolio = () => {
                   {/* START OF ROW 3 */}
                   <Row>
                      <CardDeck>
-                        {/* START OF Teacm Profile Generator PROJECT */}
+                        {/* START OF Team Profile Generator PROJECT */}
                         <Card style={CardStylingProject5} className={CardBorder}>
-                           <Card.Img variant='top' src={projectHappyTails} />
+                           <Card.Img variant='top' src={projectTeamGen} />
                            <Card.Body>
                               <Card.Title>Team Profile Generator</Card.Title>
                            
@@ -141,7 +143,7 @@ const Portfolio = () => {
                               <ListGroup>
                                  <ListGroup.Item variant='info' className="small-font-size">Built with: </ListGroup.Item>
                                  <ListGroup.Item variant='secondary' className="xsmall-font-size">
-                                 HTML, CSS, JQuery, Bootstrap
+                                 HTML, CSS, JavaScript, Jest, Inquirer
                                  </ListGroup.Item>
                               </ListGroup>
                            </Card.Body>
@@ -150,16 +152,30 @@ const Portfolio = () => {
                               <a href="https://github.com/shellienguyen/team-profile-generator" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" width="35px" height="35px" alt="GitHub Repo" /></a>
                            </Card.Body>
                         </Card>
-                        {/* END OF 5th PROJECT */}
+                        {/* END OF Team Profile Generator PROJECT */}
 
-                        {/* START OF 6th PROJECT */}
+                        {/* START OF the Weather Dashboard PROJECT */}
                         <Card style={CardStylingProject6} className={CardBorder}>
-                           <Card.Img variant='top' src={projectHappyTails} />
+                           <Card.Img variant='top' src={projectWeatherDashboard} />
                            <Card.Body>
-                              <Card.Title>Project 6</Card.Title>
+                              <Card.Title>Weather Dashboard</Card.Title>
+                           
+                              <React.Fragment><span className="xsmall-font-size">{PortfolioTexts[5]}</span></React.Fragment>
+                           
+                              <ListGroup>
+                                 <ListGroup.Item variant='info' className="small-font-size">Built with: </ListGroup.Item>
+                                 <ListGroup.Item variant='secondary' className="xsmall-font-size">
+                                    HTML, CSS, JavaScript, weater API
+                                 </ListGroup.Item>
+                              </ListGroup>
+                           </Card.Body>
+
+                           <Card.Body>
+                              <a href="https://github.com/shellienguyen/weather-dashboard" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" width="35px" height="35px" alt="GitHub Repo" /></a>
+                              <a href="https://shellienguyen.github.io/weather-dashboard/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/domain.png" width="35px" height="35px" alt="Live Application" /></a>
                            </Card.Body>
                         </Card>
-                        {/* END OF 6th PROJECT */}
+                        {/* END OF the Weather Dashboard PROJECT */}
                      </CardDeck>
                   </Row>
                   {/* END OF ROW 3 */}

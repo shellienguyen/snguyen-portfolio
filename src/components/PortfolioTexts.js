@@ -34,11 +34,17 @@ const PortfolioTexts = [
    </Card.Text>,
    
    <Card.Text>
-      Project 5
+      The Team Profile Generator helps development teams to quickly generate team roster
+      in the HTML format that displays the team's basic information. The application runs
+      at the command prompt and when executed it will take the user through a series of
+      command prompt questions to get user input.<br></br><br></br>
    </Card.Text>,
    
    <Card.Text>
-      Project 6
+      The Team Profile Generator is to provide travelers with a weather dashboard
+      that displays the current weather to a requested city. Upon page load, the
+      page will display the weather information for the last searched city,
+      if that information is available.
    </Card.Text>
 ];
 
