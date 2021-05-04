@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { Card, CardDeck, Row, ListGroup } from 'react-bootstrap';
 import PortfolioTexts from './PortfolioTexts';
+import projectsLogo from '../img/let-projects.png';
 import projectHappyTails from '../img/project-happy-tails.jpg';
 import projectSurfConditions from '../img/project-surf-conditions.jpg';
 import projectTechBlog from '../img/project-mvc-tech-blog.jpg';
@@ -23,7 +24,9 @@ const Portfolio = () => {
       <Fragment>
          <div className="body-background text-center">
             <Card className="card-background title-font" style={MainBodyStyling} bg='light'>
-               <Card.Header className="welcome-font-size">let <span class="highlight">myProjects</span> = [];</Card.Header>
+               <Card.Header>
+               <img src={projectsLogo} width="240" height="50" className="d-inline-block align-top" alt="Projects Logo" />
+               </Card.Header>
                <Card.Body>
                   {/* START OF ROW 1 */}
                   <Row>

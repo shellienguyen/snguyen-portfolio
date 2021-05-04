@@ -11,9 +11,8 @@ const Welcome = () => {
          <div className="body-background">
             <div className="text-center">
                <Card className="card-background title-font" style={ MainBodyStyling } bg='light'>
-                  {/*<Card.Header className="welcome-font-size">while ( !seeBestView ) &#123; climbUntil() &#125;;</Card.Header>*/}
                   <Card.Header>
-                     <img src={welcomeLogo} width="200" height="80" className="d-inline-block align-top" alt="Welcome Logo" />
+                     <img src={welcomeLogo} width="240" height="90" className="d-inline-block align-top" alt="Welcome Logo" />
                   </Card.Header>
                   <Card.Body>
                      <Card.Title>
