@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/snguyen-portfolio/static/css/main.3ed4b781.chunk.css",
-    "main.js": "/snguyen-portfolio/static/js/main.2c778152.chunk.js",
-    "main.js.map": "/snguyen-portfolio/static/js/main.2c778152.chunk.js.map",
+    "main.css": "/snguyen-portfolio/static/css/main.516129f5.chunk.css",
+    "main.js": "/snguyen-portfolio/static/js/main.d32dd1ed.chunk.js",
+    "main.js.map": "/snguyen-portfolio/static/js/main.d32dd1ed.chunk.js.map",
     "runtime-main.js": "/snguyen-portfolio/static/js/runtime-main.062b099d.js",
     "runtime-main.js.map": "/snguyen-portfolio/static/js/runtime-main.062b099d.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/snguyen-portfolio/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.20c2af35.chunk.js": "/snguyen-portfolio/static/js/2.20c2af35.chunk.js",
-    "static/js/2.20c2af35.chunk.js.map": "/snguyen-portfolio/static/js/2.20c2af35.chunk.js.map",
+    "static/js/2.530d7fec.chunk.js": "/snguyen-portfolio/static/js/2.530d7fec.chunk.js",
+    "static/js/2.530d7fec.chunk.js.map": "/snguyen-portfolio/static/js/2.530d7fec.chunk.js.map",
     "static/js/3.0e8b4c69.chunk.js": "/snguyen-portfolio/static/js/3.0e8b4c69.chunk.js",
     "static/js/3.0e8b4c69.chunk.js.map": "/snguyen-portfolio/static/js/3.0e8b4c69.chunk.js.map",
     "index.html": "/snguyen-portfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/snguyen-portfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.3ed4b781.chunk.css.map": "/snguyen-portfolio/static/css/main.3ed4b781.chunk.css.map",
-    "static/js/2.20c2af35.chunk.js.LICENSE.txt": "/snguyen-portfolio/static/js/2.20c2af35.chunk.js.LICENSE.txt",
+    "static/css/main.516129f5.chunk.css.map": "/snguyen-portfolio/static/css/main.516129f5.chunk.css.map",
+    "static/js/2.530d7fec.chunk.js.LICENSE.txt": "/snguyen-portfolio/static/js/2.530d7fec.chunk.js.LICENSE.txt",
     "static/media/App.css": "/snguyen-portfolio/static/media/background5.f0dad9fc.jpg",
     "static/media/headshot.a27b57b3.png": "/snguyen-portfolio/static/media/headshot.a27b57b3.png",
+    "static/media/logo.e4b89482.png": "/snguyen-portfolio/static/media/logo.e4b89482.png",
     "static/media/project-happy-tails.698b14ba.jpg": "/snguyen-portfolio/static/media/project-happy-tails.698b14ba.jpg",
     "static/media/project-mvc-tech-blog.9d5ecf98.jpg": "/snguyen-portfolio/static/media/project-mvc-tech-blog.9d5ecf98.jpg",
     "static/media/project-pwd-gen.1c33dd7c.jpg": "/snguyen-portfolio/static/media/project-pwd-gen.1c33dd7c.jpg",
@@ -29,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.062b099d.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.20c2af35.chunk.js",
-    "static/css/main.3ed4b781.chunk.css",
-    "static/js/main.2c778152.chunk.js"
+    "static/js/2.530d7fec.chunk.js",
+    "static/css/main.516129f5.chunk.css",
+    "static/js/main.d32dd1ed.chunk.js"
   ]
 }
