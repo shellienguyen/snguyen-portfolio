@@ -7,7 +7,7 @@ import Form from 'react-bootstrap/Form';
 import { validateEmail } from '../utils/helpers';
 import { capitalizeFirstLetter } from '../utils/helpers';
 
-const MainBodyStyling = { boxShadow: '8px 8px 20px rgb(41, 65, 78, 0.8)', margin: '0px 80px 0px 80px' };
+const MainBodyStyling = { boxShadow: '8px 8px 20px rgb(41, 65, 78, 0.8)', margin: '0px 5% 0px 5%' };
 
 const Contact = () => {
    const [formState, setFormState] = useState({ name: '', email: '', message: '' });

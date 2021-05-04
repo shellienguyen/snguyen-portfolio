@@ -8,7 +8,7 @@ import projectPwdGen from '../img/project-pwd-gen.jpg';
 import projectTeamGen from '../img/project-team-profile-gen.jpg';
 import projectWeatherDashboard from '../img/project-weather-dashboard.jpg';
 
-const MainBodyStyling = { boxShadow: '8px 8px 20px rgb(41, 65, 78, 0.8)', margin: '0px 80px 0px 80px' };
+const MainBodyStyling = { boxShadow: '8px 8px 20px rgb(41, 65, 78, 0.8)', margin: '0px 5% 0px 5%' };
 const CardStylingProject1 = { margin: '30px 25px 25px 60px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
 const CardStylingProject2 = { margin: '30px 60px 25px 20px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
 const CardStylingProject3 = { margin: '25px 25px 25px 60px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};

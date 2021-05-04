@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import headshot from '../img/headshot.png';
 import about from '../img/who-am-i.png';
 
-const MainBodyStyling = { boxShadow: '8px 8px 20px rgb(41, 65, 78, 0.8)', margin: '0px 80px 0px 80px' };
+const MainBodyStyling = { boxShadow: '8px 8px 20px rgb(41, 65, 78, 0.8)', margin: '0px 5% 0px 5%' };
 
 
 const About = () => {
