@@ -64,7 +64,7 @@ const Contact = () => {
 
    return (
       <Fragment>
-         <div className="body-background">
+         <div className="body-background text-center">
             <div>
                <Card className="card-background" style={MainBodyStyling} bg='light'>
                   <Card.Header className="welcome-font-size">Connect with Me</Card.Header>
@@ -75,37 +75,33 @@ const Contact = () => {
                         </div>
                      )}
 
-                     <Card.Title>
-                        <form id="contact-form" onSubmit={handleSubmit}>
-                           <Form.Group className="contact-body-font-size">
-                              <Col xs={5}>
-                                 <div>
-                                    <Form.Label>Name:</Form.Label>
-                                    <Form.Control type="text" name="name" defaultValue={name} onBlur={handleChange}></Form.Control>
-                                 </div>
-                                 <br></br>
-                                 <div>
-                                    <Form.Label>Email address:</Form.Label>
-                                    <Form.Control type="email" name="email" defaultValue={email} onBlur={handleChange} ></Form.Control>
-                                 </div>
-                                 <br></br>
-                                 <div>
-                                    <Form.Label>Message:</Form.Label>
-                                    <Form.Control as="textarea" name="message" defaultValue={message} onBlur={handleChange} rows={5} ></Form.Control>
-                                 </div>
-                              </Col>
-                           </Form.Group>
-                        </form>
+                     <Form.Group onSubmit={handleSubmit} className="contact-body-font-size contact-div-padding">
+                        <Col xs={{ span: 12}}>
+                           <div>
+                              <Form.Label>Name:</Form.Label>
+                              <Form.Control type="text" name="name" defaultValue={name} onBlur={handleChange}></Form.Control>
+                           </div>
+                           <br></br>
+                           <div>
+                              <Form.Label>Email address:</Form.Label>
+                              <Form.Control type="email" name="email" defaultValue={email} onBlur={handleChange} ></Form.Control>
+                           </div>
+                           <br></br>
+                           <div>
+                              <Form.Label>Message:</Form.Label>
+                              <Form.Control as="textarea" name="message" defaultValue={message} onBlur={handleChange} rows={5} ></Form.Control>
+                           </div>
+                        </Col>
+                     </Form.Group>
 
-                        <Form.Group>
-                           <Col sm={{ span: 6}}>
-                              <Button variant="primary" size="sm"
-                                 className="text-light" data-testid="button" >
-                                 Submit
-                              </Button>
-                           </Col>
-                        </Form.Group>
-                     </Card.Title>
+                     <Form.Group>
+                        <Col xs={{ span: 12}}>
+                           <Button variant="primary" size="sm"
+                              className="text-light" data-testid="button" >
+                              Submit
+                           </Button>
+                        </Col>
+                     </Form.Group>
                   </Card.Body>
                </Card>
             </div>

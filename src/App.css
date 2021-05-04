@@ -43,6 +43,10 @@ main {
    font-size: 1rem;
 }
 
+.contact-div-padding {
+   padding: 0 15% 0 15%;
+}
+
 .div-left {
    left: 0%;
 }

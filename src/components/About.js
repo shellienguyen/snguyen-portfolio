@@ -5,14 +5,13 @@ import about from '../img/who-am-i.png';
 
 const MainBodyStyling = { boxShadow: '8px 8px 20px rgb(41, 65, 78, 0.8)', margin: '0px 5% 0px 5%' };
 
-
 const About = () => {
    return (
       <Fragment>
          <div className="body-background">
             <div className="text-center">
                <Card className="card-background" style={ MainBodyStyling } bg='light'>
-                  <Card.Header><img src={about} alt="Who am I?" width="200" height="120"></img></Card.Header>
+                  <Card.Header className="welcome-font-size">About Me</Card.Header>
                   <Card.Body>
                      <Card.Title>
                         <img src={headshot} className="wrap-text" alt="Shellie's Headshot" width="150" height="150"></img>
