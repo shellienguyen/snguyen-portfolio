@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/snguyen-portfolio/static/css/main.7f734832.chunk.css",
+    "main.css": "/snguyen-portfolio/static/css/main.3514518f.chunk.css",
     "main.js": "/snguyen-portfolio/static/js/main.6b16f150.chunk.js",
     "main.js.map": "/snguyen-portfolio/static/js/main.6b16f150.chunk.js.map",
     "runtime-main.js": "/snguyen-portfolio/static/js/runtime-main.0f7a9bb9.js",
@@ -12,7 +12,7 @@
     "static/js/3.df1ad7ff.chunk.js.map": "/snguyen-portfolio/static/js/3.df1ad7ff.chunk.js.map",
     "index.html": "/snguyen-portfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/snguyen-portfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.7f734832.chunk.css.map": "/snguyen-portfolio/static/css/main.7f734832.chunk.css.map",
+    "static/css/main.3514518f.chunk.css.map": "/snguyen-portfolio/static/css/main.3514518f.chunk.css.map",
     "static/js/2.46d9bf7b.chunk.js.LICENSE.txt": "/snguyen-portfolio/static/js/2.46d9bf7b.chunk.js.LICENSE.txt",
     "static/media/App.css": "/snguyen-portfolio/static/media/background5.f0dad9fc.jpg",
     "static/media/headshot.a27b57b3.png": "/snguyen-portfolio/static/media/headshot.a27b57b3.png",
@@ -31,7 +31,7 @@
     "static/js/runtime-main.0f7a9bb9.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.46d9bf7b.chunk.js",
-    "static/css/main.7f734832.chunk.css",
+    "static/css/main.3514518f.chunk.css",
     "static/js/main.6b16f150.chunk.js"
   ]
 }
