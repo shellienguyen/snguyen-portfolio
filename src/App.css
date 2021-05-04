@@ -43,10 +43,6 @@ main {
    font-size: 1rem;
 }
 
-.contact-div-padding {
-   padding: 0 15% 0 15%;
-}
-
 .div-left {
    left: 0%;
 }
@@ -224,4 +220,40 @@ h2 {
 #footer a {
    text-decoration: none;
    color: var(--cadet-blue);
+}
+
+.contact-div-padding {
+   padding: 0;
+}
+
+@media only screen and (min-width: 600px) {
+   .contact-div-padding {
+      padding: 0 5% 0 5%;
+   }
+}
+
+@media only screen and (min-width: 768px) {
+   .contact-div-padding {
+      padding: 0 15% 0 15%;
+   }
+}
+
+@media only screen and (min-width: 900px) {
+   .contact-div-padding {
+      padding: 0 25% 0 25%;
+   }
+}
+
+
+@media only screen and (min-width: 1024) {
+   .contact-div-padding {
+      padding: 0 30% 0 30%;
+   }
+}
+
+
+@media only screen and (min-width: 1200) {
+   .contact-div-padding {
+      padding: 0 35% 0 35%;
+   }
 }
