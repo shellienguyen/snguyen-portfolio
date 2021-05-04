@@ -34,22 +34,6 @@ main {
 .nav-container {
    position: relative;
 }
- 
-.nav-vertical-center {
-   position: absolute;
-   top: 50%;
-   -ms-transform: translateY(-50%);
-   transform: translateY(-50%);
-   font-size: 1rem;
-}
-
-.div-left {
-   left: 0%;
-}
-
-.div-right {
-   right: 0%;
-}
 
 .title-font{
    font-family: "Raleway";
@@ -73,11 +57,6 @@ main {
    color: var( --default-color );
 }
 
-.contact-font-size{
-   font-size: 1.5rem;
-   color: var( --default-color );
-}
-
 .contact-body-font-size {
    font-size: medium;
    color: var( --default-color );
@@ -94,10 +73,6 @@ main {
 
 .body-font {
    font-family: 'Montserrat', sans-serif;
-   color: var( --default-color );
-}
-
-.default-text-color {
    color: var( --default-color );
 }
 
@@ -151,40 +126,6 @@ h2 {
    to {
       transform: rotate(360deg);
    }
-}
-
-.flex-row {
-   display: inline-flex;
-}
-
-.block-row {
-   display: inline-block;
-}
-
-.px-1 {
-   padding-right: var( --spacing-one );
-   padding-left: var( --spacing-one );
-}
- 
-.px-2 {
-   padding-right: var( --spacing-two );
-   padding-left: var( --spacing-two );
-} 
-
-.mx-1 {
-   margin-right: var( --spacing-one );
-   margin-left: var( --spacing-one );
-}
-
-.mx-2 {
-   margin-right: var( --spacing-two );
-   margin-left: var( --spacing-two );
-}
-
-.mx-1-nav {
-   margin-right: var( --spacing-one );
-   margin-left: var( --spacing-one );
-   padding: 1px;
 }
 
 .wrap-text {
