@@ -10,12 +10,7 @@ import projectTeamGen from '../img/project-team-profile-gen.jpg';
 import projectWeatherDashboard from '../img/project-weather-dashboard.jpg';
 
 const MainBodyStyling = { boxShadow: '8px 8px 20px rgb(41, 65, 78, 0.8)', margin: '0px 5% 0px 5%' };
-const CardStylingProject1 = { margin: '30px 25px 25px 60px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
-const CardStylingProject2 = { margin: '30px 60px 25px 20px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
-const CardStylingProject3 = { margin: '25px 25px 25px 60px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
-const CardStylingProject4 = { margin: '25px 60px 25px 25px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
-const CardStylingProject5 = { margin: '25px 25px 30px 60px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
-const CardStylingProject6 = { margin: '25px 60px 30px 25px', paddingTop: '20px', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)',};
+const CardStylingProject = { margin: '3%', paddingTop: '2%', boxShadow: '8px 8px 8px rgb(41, 65, 78, 0.8)' };
 const CardBorder = 'border border-info bg-dark text-light';
 
 
@@ -32,19 +27,12 @@ const Portfolio = () => {
                   <Row>
                      <CardDeck>
                         {/* START OF Happy Tails PROJECT */}
-                        <Card style={CardStylingProject1} className={CardBorder}>
+                        <Card style={CardStylingProject} className={CardBorder}>
                            <Card.Img variant='top' src={projectHappyTails} />
                            <Card.Body>
                               <Card.Title>Happy Tails</Card.Title>
                            
                               <React.Fragment><span className="small-font-size">{PortfolioTexts[0]}</span></React.Fragment>
-                           
-                              <ListGroup>
-                                 <ListGroup.Item variant='info' className="small-font-size">Technologies Used: </ListGroup.Item>
-                                 <ListGroup.Item variant='secondary' className="small-font-size">
-                                    HTML, CSS, Materialize, JavaScript, Node.js, Express.js, MySQL, Sequelize, Bcrypt.js, Nodemailer, Express Session
-                                 </ListGroup.Item>
-                              </ListGroup>
                            </Card.Body>
 
                            <Card.Body>
@@ -55,19 +43,12 @@ const Portfolio = () => {
                         {/* END OF Happy Tails PROJECT */}
 
                         {/* START OF OC/LA Surf Conditions PROJECT */}
-                        <Card style={CardStylingProject2} className={CardBorder}>
+                        <Card style={CardStylingProject} className={CardBorder}>
                            <Card.Img variant='top' src={projectSurfConditions} />
                            <Card.Body>
                               <Card.Title>LA/OC Surf Conditions</Card.Title>
                            
                               <React.Fragment><span className="small-font-size">{PortfolioTexts[1]}</span></React.Fragment>
-                           
-                              <ListGroup>
-                                 <ListGroup.Item variant='info' className="small-font-size">Technologies Used: </ListGroup.Item>
-                                 <ListGroup.Item variant='secondary' className="small-font-size">
-                                    HTML, CSS, JavaScript, localStorage, weather API, image API, Modal
-                                 </ListGroup.Item>
-                              </ListGroup>
                            </Card.Body>
 
                            <Card.Body>
@@ -84,19 +65,12 @@ const Portfolio = () => {
                   <Row>
                      <CardDeck>
                         {/* START OF MVC Tech Blog PROJECT */}
-                        <Card style={CardStylingProject3} className={CardBorder}>
+                        <Card style={CardStylingProject} className={CardBorder}>
                            <Card.Img variant='top' src={projectTechBlog} />
                            <Card.Body>
                               <Card.Title>The MVC Tech Blog</Card.Title>
                            
                               <React.Fragment><span className="small-font-size">{PortfolioTexts[2]}</span></React.Fragment>
-                           
-                              <ListGroup>
-                                 <ListGroup.Item variant='info' className="small-font-size">Technologies Used: </ListGroup.Item>
-                                 <ListGroup.Item variant='secondary' className="small-font-size">
-                                 HTML, CSS, JavaScript, Express.js, Node.js, MySQl Sequelize. Express Handlebars, Connect Session Sequelize, dotenv, bcrypt
-                                 </ListGroup.Item>
-                              </ListGroup>
                            </Card.Body>
 
                            <Card.Body>
@@ -107,19 +81,12 @@ const Portfolio = () => {
                         {/* END OF MVC Tech Blog PROJECT */}
 
                         {/* START OF Password Generator PROJECT */}
-                        <Card style={CardStylingProject4} className={CardBorder}>
+                        <Card style={CardStylingProject} className={CardBorder}>
                            <Card.Img variant='top' src={projectPwdGen} />
                            <Card.Body>
                               <Card.Title>Password Generator</Card.Title>
                            
                               <React.Fragment><span className="small-font-size">{PortfolioTexts[2]}</span></React.Fragment>
-                           
-                              <ListGroup>
-                                 <ListGroup.Item variant='info' className="small-font-size">Technologies Used: </ListGroup.Item>
-                                 <ListGroup.Item variant='secondary' className="small-font-size">
-                                 HTML, CSS, JavaScript, JQuery, Bootstrap
-                                 </ListGroup.Item>
-                              </ListGroup>
                            </Card.Body>
 
                            <Card.Body>
@@ -136,19 +103,12 @@ const Portfolio = () => {
                   <Row>
                      <CardDeck>
                         {/* START OF Team Profile Generator PROJECT */}
-                        <Card style={CardStylingProject5} className={CardBorder}>
+                        <Card style={CardStylingProject} className={CardBorder}>
                            <Card.Img variant='top' src={projectTeamGen} />
                            <Card.Body>
                               <Card.Title>Team Profile Generator</Card.Title>
                            
                               <React.Fragment><span className="small-font-size">{PortfolioTexts[4]}</span></React.Fragment>
-                           
-                              <ListGroup>
-                                 <ListGroup.Item variant='info' className="small-font-size">Technologies Used: </ListGroup.Item>
-                                 <ListGroup.Item variant='secondary' className="small-font-size">
-                                 HTML, CSS, JavaScript, Jest, Inquirer
-                                 </ListGroup.Item>
-                              </ListGroup>
                            </Card.Body>
 
                            <Card.Body>
@@ -158,19 +118,12 @@ const Portfolio = () => {
                         {/* END OF Team Profile Generator PROJECT */}
 
                         {/* START OF the Weather Dashboard PROJECT */}
-                        <Card style={CardStylingProject6} className={CardBorder}>
+                        <Card style={CardStylingProject} className={CardBorder}>
                            <Card.Img variant='top' src={projectWeatherDashboard} />
                            <Card.Body>
                               <Card.Title>Weather Dashboard</Card.Title>
                            
                               <React.Fragment><span className="small-font-size">{PortfolioTexts[5]}</span></React.Fragment>
-                           
-                              <ListGroup>
-                                 <ListGroup.Item variant='info' className="small-font-size">Technologies Used: </ListGroup.Item>
-                                 <ListGroup.Item variant='secondary' className="small-font-size">
-                                    HTML, CSS, JavaScript, weater API
-                                 </ListGroup.Item>
-                              </ListGroup>
                            </Card.Body>
 
                            <Card.Body>
