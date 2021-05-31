@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { Card, CardDeck, Row, ListGroup } from 'react-bootstrap';
 import PortfolioTexts from './PortfolioTexts';
 import projectsLogo from '../img/let-projects.png';
-import projectHappyTails from '../img/project-happy-tails.jpg';
+import projectHappyTails from '../img/project-happy-tails-v2.jpg';
 import projectSurfConditions from '../img/project-surf-conditions.jpg';
 import projectTechBlog from '../img/project-mvc-tech-blog.jpg';
 import projectPwdGen from '../img/project-pwd-gen.jpg';
@@ -30,14 +30,14 @@ const Portfolio = () => {
                         <Card style={CardStylingProject} className={CardBorder}>
                            <Card.Img variant='top' src={projectHappyTails} />
                            <Card.Body>
-                              <Card.Title>Happy Tails</Card.Title>
+                              <Card.Title>Happy Tails V2</Card.Title>
                            
                               <React.Fragment><span className="small-font-size">{PortfolioTexts[0]}</span></React.Fragment>
                            </Card.Body>
 
                            <Card.Body>
-                              <a href="https://github.com/shellienguyen/happy-tails" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" width="35px" height="35px" alt="GitHub Repo" /></a>
-                              <a href="https://happy-happy-tails.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/domain.png" width="35px" height="35px" alt="Live Application" /></a>
+                              <a href="https://happytails-v2.herokuapp.com/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png" width="35px" height="35px" alt="GitHub Repo" /></a>
+                              <a href="https://github.com/es2013/happytails-v2/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/domain.png" width="35px" height="35px" alt="Live Application" /></a>
                            </Card.Body>
                         </Card>
                         {/* END OF Happy Tails PROJECT */}

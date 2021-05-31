@@ -7,10 +7,11 @@ const PortfolioTexts = [
       This is a task tracking site to help shelter employees/volunteers to track the
       dogs' daily activities.  The application tracks whether the dogs have been taken
       out for their twice-a-day walk and potty activities. The application also tracks
-      by difficulty levels to make sure that all of the dogs are taken care of and paired
-      with a compatible caretaker who meets the required experience.<br></br><br></br>
-      (HTML, CSS, Materialize, JavaScript, Node.js, Express.js, MySQL, Sequelize,
-      Bcrypt.js, Nodemailer, Express Session)
+      by the dog's difficulty level and residency status. An admin user can add a dog
+      and deactivate/activate a user.<br></br><br></br>
+      (HTML, CSS, Materialize, JavaScript, Node.js, Express.js, MongoDB, Mongoose,
+      Bcrypt.js, Apollo Server, GraphQL, Apollo/React Hooks, React Router Dom, React 
+      Bootstrap, UUID, React-Select, React-Dropdown, GraphQL Upload)
    </Card.Text>,
 
    <Card.Text>
