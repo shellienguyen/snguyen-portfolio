@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/snguyen-portfolio/static/css/main.3514518f.chunk.css",
-    "main.js": "/snguyen-portfolio/static/js/main.6b16f150.chunk.js",
-    "main.js.map": "/snguyen-portfolio/static/js/main.6b16f150.chunk.js.map",
+    "main.css": "/snguyen-portfolio/static/css/main.2a3d4e7f.chunk.css",
+    "main.js": "/snguyen-portfolio/static/js/main.93575f94.chunk.js",
+    "main.js.map": "/snguyen-portfolio/static/js/main.93575f94.chunk.js.map",
     "runtime-main.js": "/snguyen-portfolio/static/js/runtime-main.0f7a9bb9.js",
     "runtime-main.js.map": "/snguyen-portfolio/static/js/runtime-main.0f7a9bb9.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/snguyen-portfolio/static/css/2.4c97ca4f.chunk.css",
@@ -12,12 +12,12 @@
     "static/js/3.df1ad7ff.chunk.js.map": "/snguyen-portfolio/static/js/3.df1ad7ff.chunk.js.map",
     "index.html": "/snguyen-portfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/snguyen-portfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.3514518f.chunk.css.map": "/snguyen-portfolio/static/css/main.3514518f.chunk.css.map",
+    "static/css/main.2a3d4e7f.chunk.css.map": "/snguyen-portfolio/static/css/main.2a3d4e7f.chunk.css.map",
     "static/js/2.46d9bf7b.chunk.js.LICENSE.txt": "/snguyen-portfolio/static/js/2.46d9bf7b.chunk.js.LICENSE.txt",
     "static/media/App.css": "/snguyen-portfolio/static/media/background5.f0dad9fc.jpg",
     "static/media/headshot.a27b57b3.png": "/snguyen-portfolio/static/media/headshot.a27b57b3.png",
     "static/media/logo.e4b89482.png": "/snguyen-portfolio/static/media/logo.e4b89482.png",
-    "static/media/project-happy-tails.698b14ba.jpg": "/snguyen-portfolio/static/media/project-happy-tails.698b14ba.jpg",
+    "static/media/project-happy-tails-v2.1a7b0574.jpg": "/snguyen-portfolio/static/media/project-happy-tails-v2.1a7b0574.jpg",
     "static/media/project-mvc-tech-blog.9d5ecf98.jpg": "/snguyen-portfolio/static/media/project-mvc-tech-blog.9d5ecf98.jpg",
     "static/media/project-pwd-gen.1c33dd7c.jpg": "/snguyen-portfolio/static/media/project-pwd-gen.1c33dd7c.jpg",
     "static/media/project-surf-conditions.6e7c9063.jpg": "/snguyen-portfolio/static/media/project-surf-conditions.6e7c9063.jpg",
@@ -31,7 +31,7 @@
     "static/js/runtime-main.0f7a9bb9.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.46d9bf7b.chunk.js",
-    "static/css/main.3514518f.chunk.css",
-    "static/js/main.6b16f150.chunk.js"
+    "static/css/main.2a3d4e7f.chunk.css",
+    "static/js/main.93575f94.chunk.js"
   ]
 }
